@@ -1,0 +1,15 @@
+列出全局安装的npm包
+npm list -g --depth 0
+
+显示npm配置
+npm config list
+
+修改node的全局安装及缓存目录
+npm config set cache "D:\\node_cache"
+npm config set prefix "D:\\node_global"
+
+全局安装某个npm包（webpack）
+npm install -g webpack
+
+在项目中安装某个npm包
+npm install babel-loader --save-dev
