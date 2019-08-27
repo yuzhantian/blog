@@ -13,3 +13,11 @@ npm install -g webpack
 
 在项目中安装某个npm包
 npm install babel-loader --save-dev
+
+查看某个包的版本号
+npm view packageName versions（所有版本号，列表显示）
+npm view packageName version（仅本地最新的版本）
+npm info packageName（列出基于本地最新版本的信息）
+
+npm ls packageName（显示本地已安装的）
+npm ls packageName -g（显示本地已全局安装的）
