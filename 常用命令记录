@@ -21,3 +21,25 @@ npm info packageName（列出基于本地最新版本的信息）
 
 npm ls packageName（显示本地已安装的）
 npm ls packageName -g（显示本地已全局安装的）
+
+
+git相关
+设置账号
+git config user.name 'you-name'
+git config user.email 'you-email'
+全局配置
+git config --global user.name 'you-name'
+git config --global user.email 'you-email'
+
+本地建立项目再推送至远程仓库
+git init
+git add filename
+git commit -m "注释内容"
+git remote add origin git远程仓库url //仅需设置一次
+git push -u origin master
+
+克隆远程仓库
+git clone git远程仓库url
+
+合并远程分支到本地
+git pull origin master  //git pull = git fetch + git merge FETCH_HEAD
