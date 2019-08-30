@@ -8,8 +8,11 @@ npm config list
 npm config set cache "D:\\node_cache"
 npm config set prefix "D:\\node_global"
 
-全局安装某个npm包（webpack）
-npm install -g webpack
+全局安装某个npm包
+npm install -g <package>
+
+全局删除某个包
+npm uninstall -g <package>
 
 在项目中安装某个npm包
 npm install babel-loader --save-dev
